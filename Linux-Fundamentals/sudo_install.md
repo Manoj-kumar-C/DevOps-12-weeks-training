@@ -9,3 +9,4 @@
 | `--reinstall`             | Reinstall package       | Fix corrupted installs |
 | `--purge`                 | Remove + config         | Clean uninstall        |
 | `-s`                      | Simulation              | Safe testing           |
+c
