@@ -10,7 +10,7 @@ def terraform_apply():
 def git_auto_push(msg="Automated update"):
     subprocess.run(["git", "add", "."])
     subprocess.run(["git", "commit", "-m", msg])
-    subprocess.run(["git", "push"])
+    subprocess.run(["git", "push", "origin", "master"])
 
 
 if __name__ == "__main__":
