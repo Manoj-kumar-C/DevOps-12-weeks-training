@@ -1,0 +1,6 @@
+paramiko
+requests
+pyyaml
+flake8
+black
+pytest
